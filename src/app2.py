@@ -33,3 +33,4 @@ def suma(n1,n2):
 @app.route("/default/<string:nom>")
 def nom2(nom='Kas'):
     return "<h1> el nombre es: {}".format(nom)
+
